@@ -1,0 +1,226 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: antiquewhite;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: #BC4B34;
+  }
+  
+a:active {
+    color: blue;
+}
+
+
+
+.links{
+    text-decoration: none;
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.loginn{
+    text-align: center;
+    margin-top: 15%;
+    background-color: white;
+    border-style: double;
+    border-color:  #646C64;
+    border-width: 10px;
+    border-radius: 10px;
+    border-left: -100px;
+    width: 500px;
+    height: auto;
+    margin-left: 35%;
+    background-color:#B7B8B6;
+}
+
+.button {
+    background-color: #646C64;
+    border: none;
+    color: #E5E7E7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family:Kastellar;
+}
+
+.categoryGrid{
+    flex-direction: row;
+    text-decoration: none;
+    color:chocolate;
+    text-align: center;
+
+}
+
+@font-face {
+    font-family: 'Kastellar';
+    src: url('Fonts/Kastellar.woff2') format('woff2'),
+        url('Fonts/Kastellar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('Fonts/Aleo-Light.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+#shopping-cart{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+    background-color: antiquewhite;
+    font-family: Aleo;
+    text-decoration: none;
+    border-style: double;
+    border-color: #BC4B34;
+    border-radius: 15px;
+    border-width: 15px;
+
+}
+
+.cos-text{
+    font-size: 50px;
+    font-family: Kastellar;
+}
+
+.imagine{
+    background-color:transparent;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: #BC4B34;
+  }
+  
+a:active {
+    color: blue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 275px);
+    grid-gap: 10px;
+    border: #646C64;
+    justify-content: center;    
+}
+
+
+
+.product-image{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    border-style:none ;
+    border-radius: 15px;
+    
+}
+
+.product-item{
+    border-style: double ;
+    border-color: #BC4B34;
+    border-radius: 13px;
+    text-align: center;
+    display: flex;
+    justify-content:center;
+
+}
+
+input[type=submit],[type=text] {
+    border-style: solid;
+    border-color: #BC4B34;
+    font-family: Aleo;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+input[class=buton]{
+    background-color: #646C64;
+    border: none;
+    color: #E5E7E7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family:Kastellar;
+}
+
+.menuDiv{
+    width: 130px;
+    height: 100%;
+    position: fixed;
+    background-color: antiquewhite;
+    z-index: 1;
+    top:0;
+    right: 0;
+    overflow-x: hidden;
+    overflow:hidden
+}
+
+.prodDiv{
+    width: 900px;
+    margin: auto;
+    background-color: antiquewhite;
+    height: 100%;
+    margin-bottom: bottom;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #BC4B34;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: auto;
+
+}
+
+#product-page-image{
+    width: 600px;
+    height: 600px;
+    display:flex;
+    border-style:solid ;
+    border-radius: 15px;
+    border-color: #BC4B34;
+    object-fit: fill;
+    
+}
